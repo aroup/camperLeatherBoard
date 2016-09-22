@@ -14,7 +14,6 @@ class MainPage extends React.Component {
   }
   handleOnClick (event){
     let field = event.currentTarget;
-    console.log(field.id);
     if(field.id==='recent'){
       this.setState({
         infos: topRecent
