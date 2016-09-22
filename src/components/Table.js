@@ -13,7 +13,6 @@ const TableExampleSimple = ({infos,onClick}) => {
     width : '80%',
     padding: '5%'
   };
-  console.log(infos);
   return (
     <div  style={styles}>
     <MuiThemeProvider>
